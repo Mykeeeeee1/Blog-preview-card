@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0 0 black;
+    transition: all 0.3s ease;
+}
+
+.card-illustration {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-learning{
+    background: hsl(47, 88%, 63%);
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease;
+}
+
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.card-body p {
+    color: hsl(0, 0%, 42%);
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-footer img{
+    width: 3em;
+    border-radius: 50%;
+}
+
+.card-footer-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
